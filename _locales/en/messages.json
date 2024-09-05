@@ -1,0 +1,29 @@
+{
+    "extensionName": {
+      "message": "Google Search Result Numbers"
+    },
+    "extensionDescription": {
+      "message": "Display ranking numbers on the left side of Google search results"
+    },
+    "settingsTitle": {
+      "message": "Settings"
+    },
+    "backgroundStyle": {
+      "message": "Background Style"
+    },
+    "defaultStyle": {
+      "message": "Default"
+    },
+    "circleStyle": {
+      "message": "Circle"
+    },
+    "fontFamily": {
+      "message": "Font Family"
+    },
+    "fontColor": {
+      "message": "Font Color"
+    },
+    "saveSettings": {
+      "message": "Save Settings"
+    }
+  }

@@ -1,0 +1,58 @@
+.rank-number {
+  position: absolute;
+  left: -50px;
+  top: 5px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.rank-number::before {
+  content: attr(data-number);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #396;
+  padding: 0 6px;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 12px;
+  font-weight: bold;
+  height: 25px;
+}
+
+.rank-number::after {
+  content: '';
+  display: flex;
+  width: 10px;
+  height: 25px;
+  border-top: 12.5px solid #ffffff;
+  border-left: 10px solid #396;
+  border-bottom: 12.5px solid #ffffff;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.rank-number.circle-background::before {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background: #396;
+}
+
+.rank-number.circle-background::after {
+  display: none;
+}
+
+#rso > div {
+  position: relative;
+}

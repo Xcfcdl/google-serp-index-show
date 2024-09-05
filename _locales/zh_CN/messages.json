@@ -1,0 +1,29 @@
+{
+    "extensionName": {
+      "message": "谷歌搜索结果序号"
+    },
+    "extensionDescription": {
+      "message": "在谷歌搜索结果左侧显示排名序号"
+    },
+    "settingsTitle": {
+      "message": "设置"
+    },
+    "backgroundStyle": {
+      "message": "背景样式"
+    },
+    "defaultStyle": {
+      "message": "默认"
+    },
+    "circleStyle": {
+      "message": "圆形"
+    },
+    "fontFamily": {
+      "message": "字体"
+    },
+    "fontColor": {
+      "message": "字体颜色"
+    },
+    "saveSettings": {
+      "message": "保存设置"
+    }
+  }

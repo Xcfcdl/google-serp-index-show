@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>__MSG_extensionName__</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+    }
+    .setting-item {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>__MSG_settingsTitle__</h1>
+  <div class="setting-item">
+    <label for="background-style">__MSG_backgroundStyle__:</label>
+    <select id="background-style">
+      <option value="default">__MSG_defaultStyle__</option>
+      <option value="circle">__MSG_circleStyle__</option>
+    </select>
+  </div>
+  <div class="setting-item">
+    <label for="font-family">__MSG_fontFamily__:</label>
+    <select id="font-family">
+      <option value="Arial">Arial</option>
+      <option value="Helvetica">Helvetica</option>
+      <option value="sans-serif">Sans-serif</option>
+    </select>
+  </div>
+  <div class="setting-item">
+    <label for="font-color">__MSG_fontColor__:</label>
+    <input type="color" id="font-color" value="#ffffff">
+  </div>
+  <button id="save-settings">__MSG_saveSettings__</button>
+  <script src="popup.js"></script>
+</body>
+</html>
